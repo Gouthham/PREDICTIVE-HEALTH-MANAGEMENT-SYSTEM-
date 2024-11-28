@@ -6,22 +6,49 @@ import pandas as pd
 st.markdown(
     """
     <style>
-    body {
-        background-color: #f0f8ff; 
-        font-family: Arial, sans-serif;
+    [data-testid="stAppViewContainer"]{
+    background-color: #273746;
+    }
+
+    [data-testid="stHeader"] {
+        background-color: #273746; /* Match app background */
+        padding: 0; /* Remove padding for better alignment */
+    }
+
+
+    [data-testid="stMainMenu"] {
+    background-color: #7f8c8d;
+    border-radius: 8px;
+    color: #000000;
     }
     .stButton>button {
-        background-color: #4CAF50; /* Green button */
+        background-color:#7f8c8d ;
         color: white;
         font-size: 16px;
         border-radius: 8px;
         padding: 10px 20px;
     }
     .stButton>button:hover {
-        background-color: #45a049;
+        background-color: #515a5a  ;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #2c3e50;
+        color: #fdfefe;
+    }
+      p, label, .stMarkdown {
+        color: #f8f9f9; /* Light gray for normal text */
+    }
+
+    .stMultiSelect div[data-baseweb="select"] {
+        background-color: #ffffff; /* White background for multiselect dropdown */
+        color: #000000; /* Black text for dropdown options */
+    }
+
+    .stMultiSelect div[data-baseweb="select"]:hover {
+        background-color: #f0f0f0; /* Light gray hover for dropdown */
+    }
+
+    .subheader {
+        color: #fdfefe; /* White color for subheaders */
     }
     </style>
     """,
@@ -36,7 +63,7 @@ symptoms=['itching', 'skin_rash', 'nodal_skin_eruptions', 'continuous_sneezing',
 
 
 # Dropdown for selecting symptoms
-st.title("Disease Prediction App")
+st.title("Disease Prediction and Care Assistant")
 st.write("Select the symptoms you are experiencing to predict the possible disease and get related recommendations.")
 selected_symptoms = st.multiselect("Select Symptoms", symptoms)
 
