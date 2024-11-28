@@ -6,10 +6,10 @@ GenHealthCare is an advanced disease prediction system built using machine learn
 
 **Features**
 
-**Disease Prediction**: Input up to 4 symptoms, and the model predicts the most probable disease.
-**Health Recommendations**: Offers a detailed description, medications, precautions, and diet plans for the predicted disease.
-**Interactive UI**: An easy-to-use interface built with Streamlit, ensuring a smooth user experience.
-**Deployed Application**: Available online at GenHealthCare Disease Prediction System.
+1. **Disease Prediction**: Input up to 4 symptoms, and the model predicts the most probable disease.
+2. **Health Recommendations**: Offers a detailed description, medications, precautions, and diet plans for the predicted disease.
+3. **Interactive UI**: An easy-to-use interface built with Streamlit, ensuring a smooth user experience.
+4. **Deployed Application**: Available online at GenHealthCare Disease Prediction System.
 
 **How It Works?**
 1. The user selects symptoms from a predefined list in the application.
@@ -24,12 +24,12 @@ GenHealthCare is an advanced disease prediction system built using machine learn
    
 **Technologies Used**
 
-**Python**: Core programming language.
-**Streamlit**: Web app framework for deployment.
-**Scikit-learn**: For building and training the Random Forest model.
-**Pandas**: For data manipulation and retrieval.
-**Joblib**: For saving and loading the trained model.
-**Deployed Link**: https://genhealthcare.streamlit.app/
+1. **Python**: Core programming language.
+2. **Streamlit**: Web app framework for deployment.
+3. **Scikit-learn**: For building and training the Random Forest model.
+4. **Pandas**: For data manipulation and retrieval.
+5. **Joblib**: For saving and loading the trained model.
+6. **Deployed Link**: https://genhealthcare.streamlit.app/
 
 **Usage**
 
@@ -53,5 +53,5 @@ GenHealthCare is an advanced disease prediction system built using machine learn
 
 For queries or feedback, feel free to reach out:
 
-**Name**: GOUTHHAM VENKATESH
-**Email**: goutham.sv05@gmail.com
+1. **Name**: GOUTHHAM VENKATESH
+2. **Email**: goutham.sv05@gmail.com
