@@ -33,7 +33,7 @@ GenHealthCare is an advanced disease prediction system built using machine learn
 
 **Usage**
 
-1. Navigate to the deployed app: GenHealthCare.
+1. Navigate to the deployed app: https://genhealthcare.streamlit.app.
 2. Select symptoms from the dropdown menu.
 3. Click "Predict Disease" to get the result.
 4. View the predicted disease and the recommended health advice.
