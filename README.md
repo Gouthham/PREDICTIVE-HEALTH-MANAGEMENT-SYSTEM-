@@ -1,9 +1,11 @@
 **Disease Prediction System: GenHealthCare1**
 
 **Overview**
+
 GenHealthCare is an advanced disease prediction system built using machine learning. It leverages user-provided symptoms to predict potential diseases and provides recommendations for medication, precautions, and diet plans. The app is deployed on Streamlit and offers an intuitive interface for users to interact and gain insights about their health.
 
 **Features**
+
 **Disease Prediction**: Input up to 4 symptoms, and the model predicts the most probable disease.
 **Health Recommendations**: Offers a detailed description, medications, precautions, and diet plans for the predicted disease.
 **Interactive UI**: An easy-to-use interface built with Streamlit, ensuring a smooth user experience.
@@ -21,6 +23,7 @@ GenHealthCare is an advanced disease prediction system built using machine learn
       Diet Plan
    
 **Technologies Used**
+
 **Python**: Core programming language.
 **Streamlit**: Web app framework for deployment.
 **Scikit-learn**: For building and training the Random Forest model.
@@ -29,21 +32,25 @@ GenHealthCare is an advanced disease prediction system built using machine learn
 **Deployed Link**: https://genhealthcare.streamlit.app/
 
 **Usage**
+
 1. Navigate to the deployed app: GenHealthCare.
 2. Select symptoms from the dropdown menu.
 3. Click "Predict Disease" to get the result.
 4. View the predicted disease and the recommended health advice.
 
 **Dataset**
+
 1. Symptoms and Diseases: A comprehensive dataset mapping symptoms to diseases.
 2. Metadata: Includes detailed descriptions, medications, precautions, and diet plans for each disease.
 
 **Future Enhancements**
+
 1. Add support for more symptoms and diseases.
 2. Include multilingual support for a broader audience.
 3. Expand health recommendations with workout plans and alternative therapies.
 
 **Contact**
+
 For queries or feedback, feel free to reach out:
 
 **Name**: GOUTHHAM VENKATESH
