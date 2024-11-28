@@ -1,4 +1,4 @@
-**Disease Prediction System: GenHealthCare1**
+# **Disease Prediction System: GenHealthCare**
 
 **Overview**
 
